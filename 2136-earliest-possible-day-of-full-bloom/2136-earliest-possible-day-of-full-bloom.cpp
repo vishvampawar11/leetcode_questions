@@ -10,7 +10,7 @@ public:
         int ans = 0;
         for(int i=0;i<n;i++){
             days+=v[i][1];
-            ans=max(ans,(days + v[i][0]));
+            ans=max(ans, days + v[i][0]);
         }
         return ans;
     }
